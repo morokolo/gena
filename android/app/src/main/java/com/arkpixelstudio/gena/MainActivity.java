@@ -1,4 +1,4 @@
-package com.gena;
+package com.arkpixelstudio.gena;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

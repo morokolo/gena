@@ -1,4 +1,4 @@
-package com.gena.newarchitecture;
+package com.arkpixelstudio.gena.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.gena.BuildConfig;
-import com.gena.newarchitecture.components.MainComponentsRegistry;
-import com.gena.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.arkpixelstudio.gena.BuildConfig;
+import com.arkpixelstudio.gena.newarchitecture.components.MainComponentsRegistry;
+import com.arkpixelstudio.gena.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

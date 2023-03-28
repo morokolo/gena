@@ -1,4 +1,4 @@
-package com.gena.newarchitecture.modules;
+package com.arkpixelstudio.gena.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
