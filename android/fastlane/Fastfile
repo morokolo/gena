@@ -58,7 +58,7 @@ platform :android do
       build_type: 'Release',
       properties: {
         "android.injected.signing.store.file" => Dir.pwd + "/gena-upload-key.keystore",
-    "android.injected.signing.store.password" => options[:RELEASE_KEYSTORE_PASSWORD], # keystore password
+        "android.injected.signing.store.password" => options[:RELEASE_KEYSTORE_PASSWORD], # keystore password
         "android.injected.signing.key.alias" => options[:RELEASE_KEYSTORE_ALIAS], # alias
         "android.injected.signing.key.password" => options[:RELEASE_KEYSTORE_KEY_PASSWORD], # key password
         "vname" => package["version"]
