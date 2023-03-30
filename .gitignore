@@ -62,3 +62,7 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+# secrets
+android/fastlane/gena-upload-key.keystore
+android/fastlane/service_account.json
