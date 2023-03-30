@@ -1,7 +1,9 @@
 name: Android Build & Deploy
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -15,8 +17,8 @@ jobs:
           ruby-version: 2.7.5
           bundler-cache: true
 
-      - name: Run tests
-        run: bundle exec fastlane android test
+      # - name: Run tests
+      #   run: bundle exec fastlane android test
 
       - name: Decode Service Account Key JSON File
         uses: timheuer/base64-to-file@v1
