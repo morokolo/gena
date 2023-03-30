@@ -1,9 +1,6 @@
 name: Pre Release
 
 on:
-  release:
-    types: [prereleased]
-
   workflow_dispatch:
 
 jobs:
