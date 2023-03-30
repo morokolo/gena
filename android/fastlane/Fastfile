@@ -70,7 +70,7 @@ platform :android do
       track: 'internal',
       release_status: 'draft', # <http://docs.fastlane.tools/actions/upload_to_play_store/#parameters>
       skip_upload_apk: true,
-      version_name: package["version"]
+      # version_name: package["version"]
     )
   end
 end
