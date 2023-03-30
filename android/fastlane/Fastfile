@@ -21,7 +21,7 @@ def getVersionCode
   # versionCode increase every minute (so max 1 build per minute)
   # versionCode cannot be smaller than legacyVersionCode
   thirtySeptemberTwentyTwenty = 1601480940 / 60
-  legacyVersionCode = 10902
+  legacyVersionCode = 1322765
   versionCode = legacyVersionCode + (Time.now.to_i / 60) - thirtySeptemberTwentyTwenty
 
   if versionCode > 2100000000
